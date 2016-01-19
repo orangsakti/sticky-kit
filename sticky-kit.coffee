@@ -57,7 +57,7 @@ $.fn.stick_in_parent = (opts={}) ->
       else
         $("<div />")
 
-      spacer.css('position', elm.css('position')) if spacer
+      #spacer.css('position', elm.css('position')) if spacer
 
       recalc = ->
         return if detached
